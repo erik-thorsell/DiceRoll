@@ -5,6 +5,7 @@ const currents = [document.getElementById("p1Current"), document.getElementById(
 const rollBtn = document.getElementById("rollDice");
 const holdBtn = document.getElementById("hold");
 const newGameBtn = document.getElementById("newGame");
+const dice = document.getElementById("dice");
 
 let currentPlayer = 0;
 
@@ -26,6 +27,7 @@ function changePlayer() {
 function rollDice() {
     const diceRoll = Math.floor(Math.random()*6) + 1;
     const currentCurrent = parseInt(currents[currentPlayer].innerText);
+    dice.src = "images/dice" + diceRoll + ".png";
     if (diceRoll === 1) {
         currents[currentPlayer].innerText = 0;
         changePlayer();
