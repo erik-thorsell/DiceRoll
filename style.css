@@ -7,4 +7,16 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: url(dice_roll/background.png);
+    background-size: cover;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.button {
+    font-size: 2rem;
+    display: block;
+    margin: 1rem;
 }
