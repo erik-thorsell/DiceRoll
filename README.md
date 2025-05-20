@@ -6,6 +6,7 @@ Clone the Github repository to your machine using the following command
 git clone https://github.com/erik-thorsell/DiceRoll
 ```
 Open the directory where the repository was cloned to
+
 Run `index.html` to start the game.
 
 ## Instructions
