@@ -9,14 +9,18 @@ body {
     justify-content: center;
     background-image: url(dice_roll/background.png);
     background-size: cover;
+    color: whitesmoke;
+}
+#dice {
+    height: 100px;
 }
 
 .title {
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 
 .button {
-    font-size: 2rem;
+    font-size: 1.25rem;
     display: block;
-    margin: 1rem;
+    margin: .5rem;
 }
